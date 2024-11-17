@@ -1,0 +1,215 @@
+Company Name,Stock Symbol,Preference Score
+Tesla,TSLA,0.17243278
+NVIDIA,NVDA,0.15743151
+Shopify,SHOP,0.15596093
+MongoDB,MDB,0.15351951
+HubSpot,HUBS,0.14843744
+Twilio,TWLO,0.1464759
+Booking Holdings,BKNG,0.14551973
+Etsy,ETSY,0.1442205
+Square (Block),SQ,0.14296229
+Zscaler,ZS,0.14240138
+Apple,AAPL,0.14218315
+TikTok (ByteDance),TTOK,0.1420741
+Okta,OKTA,0.14159532
+Atlassian,TEAM,0.14156438
+Roku,ROKU,0.14068496
+CrowdStrike Holdings,CRWD,0.14044678
+Netflix,NFLX,0.13751478
+Alphabet (Google),GOOGL,0.13747236
+Zoom Video Communications,ZM,0.13717583
+Zoom Video Communications,ZM,0.13717583
+Wayfair,W,0.13662651
+Epic Games,EPIC,0.13623393
+Workday,WDAY,0.1358976
+Salesforce,CRM,0.13566683
+Facebook (Meta Platforms),META,0.13488407
+Amazon,AMZN,0.13472606
+Waymo,WAYMO,0.13436328
+Cloudflare,NET,0.13400367
+Wix.com,WIX,0.13398936
+Inari Medical,NARI,0.13380602
+CrowdStrike,CRWD,0.1337896
+Expedia Group,EXPE,0.13340947
+Amgen,AMGN,0.13336815
+Elastic N.V.,ESTC,0.13334379
+Datadog,DDOG,0.13289887
+Datadog,DDOG,0.13289887
+Samsung,005930,0.13222685
+nCino,NCNO,0.13197781
+PayPal,PYPL,0.13187847
+Deere & Company,DE,0.13163084
+GitLab,GTLB,0.13155442
+GitLab,GTLB,0.13155442
+Confluent,CFLT,0.13146262
+C3.ai,AI,0.13128906
+Snowflake Inc.,SNOW,0.13106278
+SentinelOne,S,0.13085926
+SentinelOne,S,0.13085926
+DocuSign,DOCU,0.13084753
+Fiverr International,FVRR,0.13056093
+Slack Technologies,WORK,0.13053636
+Unity Software,U,0.1304712
+Twitter,TWTR,0.1304595
+Joby Aviation,JOBY,0.13037914
+Box,BOX,0.1303581
+ZoomInfo Technologies,ZI,0.13021198
+ChargePoint,CHPT,0.13009481
+Roblox,RBLX,0.13006604
+Palantir Technologies,PLTR,0.13006389
+Cabaletta Bio,CABA,0.13002372
+Airbnb,ABNB,0.1300177
+UiPath,PATH,0.12990426
+HashiCorp,HCP,0.12984362
+Duolingo,DUOL,0.12982555
+Duolingo,DUOL,0.12982555
+Freshworks,FRSH,0.12978306
+DataRobot,DRBOT,0.12976284
+Snowflake,SNOW,0.12969615
+Tata Motors,TTM,0.12963007
+Cognizant,CTSH,0.12962584
+Zomato,ZOMATO,0.12946028
+Fastly,FSLY,0.12942208
+Monday.com,MNDY,0.12935741
+SoFi Technologies,SOFI,0.12925676
+SoFi Technologies,SOFI,0.12925676
+Dropbox,DBX,0.12922075
+CoinGecko,GECKO,0.12913816
+Pinterest,PINS,0.12911806
+Pinterest,PINS,0.12911806
+Toast,TOST,0.12911595
+Toast,TOST,0.12911595
+Asana,ASAN,0.12907787
+GlobalFoundries,GFS,0.12907574
+TaskUs,TASK,0.12901545
+AppLovin,APP,0.12899534
+Kymera Therapeutics,KYMR,0.12895614
+BlackLine,BL,0.1289372
+Day One Biopharmaceuticals,DAWN,0.12883046
+Spotify,SPOT,0.12879246
+ZipRecruiter,ZIP,0.12877452
+Uber Technologies,UBER,0.12864994
+Coupang,CPNG,0.12859197
+Rivian Automotive,RIVN,0.12849179
+Spotify for Business,SPOTB,0.1284739
+Snap Inc.,SNAP,0.1284539
+Ginkgo Bioworks,DNA,0.12839173
+Payoneer Global,PAYO,0.1283717
+Squarespace,SQSP,0.12833169
+Vizio Holding,VZIO,0.12827171
+Affirm Holdings,AFRM,0.12823384
+Affirm Holdings,AFRM,0.12823384
+Beam Therapeutics,BEAM,0.1281954
+Coursera,COUR,0.12819175
+Coursera,COUR,0.12819175
+Instacart,CART,0.12811184
+Chewy,CHWY,0.128094
+Chewy,CHWY,0.128094
+Dell Technologies,DELL,0.12807612
+DoorDash,DASH,0.1280719
+DoorDash,DASH,0.1280719
+Relay Therapeutics,RLAY,0.12796617
+Marqeta,MQ,0.12795214
+Marqeta,MQ,0.12795214
+Grab Holdings,GRAB,0.12791015
+Imago BioSciences,IMGO,0.12789719
+Blockstream,BLOCK,0.12785241
+Warby Parker,WRBY,0.12785031
+Warby Parker,WRBY,0.12785031
+Sage Group,SGE,0.12783247
+Taboola,TBLA,0.12777059
+Denali Therapeutics,DNLI,0.12773983
+Blend Labs,BLND,0.1276909
+Upstart Holdings,UPST,0.12762904
+ThredUp,TDUP,0.12757146
+Bumble,BMBL,0.12755156
+Bumble,BMBL,0.12755156
+Crowdcube,CUBE,0.12755154
+LegalZoom,LZ,0.12747197
+Zoomerang,ZOMER,0.12745209
+Compass Therapeutics,CMPX,0.12744454
+Compass,COMP,0.12709248
+Compass,COMP,0.12709248
+Slackline,SLINE,0.12705493
+Lemonade,LMND,0.12701316
+Lemonade,LMND,0.12701316
+Ovid Therapeutics,OVID,0.12691624
+908 Devices,MASS,0.12680048
+Outset Medical,OM,0.12678497
+Nubank,NU,0.12659529
+Plug Power,PLUG,0.12633751
+iTeos Therapeutics,ITOS,0.12614678
+Inhibrx,INBX,0.12601414
+Revolution Medicines,RVMD,0.1257683
+Beyond Meat,BYND,0.12568767
+Doximity,DOCS,0.12563267
+Dyne Therapeutics,DYN,0.124996215
+Avidity Biosciences,RNA,0.12493088
+Caribou Biosciences,CRBU,0.12461873
+Xpeng,XPEV,0.12457494
+Edgewise Therapeutics,EWTX,0.1245305
+Alector,ALEC,0.12437856
+Alibaba Group,BABA,0.12432372
+Nio,NIO,0.124146566
+Oric Pharmaceuticals,ORIC,0.1241402
+PMV Pharmaceuticals,PMVP,0.12413882
+Vaxxinity,VAXX,0.12407673
+FIGS,FIGS,0.123977944
+Kinnate Biopharma,KNTE,0.12392705
+Kronos Bio,KRON,0.12377249
+Arcutis Biotherapeutics,ARQT,0.12350216
+Blue Apron,APRN,0.123343445
+Groupon,GRPN,0.123227485
+Black Diamond Therapeutics,BDTX,0.123190865
+Terns Pharmaceuticals,TERN,0.12317427
+Snapdeal,SNDEAL,0.123111635
+Baidu,BIDU,0.122741245
+Carvana,CVNA,0.122704774
+Bolt Biotherapeutics,BOLT,0.12256916
+Vera Therapeutics,VERA,0.12242235
+TScan Therapeutics,TCRX,0.12240869
+Oatly Group,OTLY,0.12237795
+Redfin,RDFN,0.122281946
+Lyft,LYFT,0.122128494
+Lyft,LYFT,0.122128494
+Virgin Galactic,SPCE,0.122068964
+Didi Global,DIDI,0.12189663
+Robinhood Markets,HOOD,0.12141895
+Robinhood Markets,HOOD,0.12141895
+Wish (ContextLogic),WISH,0.121416904
+Coinbase,COIN,0.121384814
+Erasca,ERAS,0.12128402
+WeWork,WE,0.12038864
+Zymergen,ZY,0.12025617
+DLocal Limited,DLO,0.12002245
+Atara Biotherapeutics,ATRA,0.119858384
+Design Therapeutics,DSGN,0.11909962
+Playtika Holding Corp.,PLTK,0.11902036
+Poshmark,POSH,0.11866767
+Nikola,NKLA,0.118406735
+Orchard Therapeutics plc,ORTX,0.11791468
+Renalytix plc,RNLX,0.11789142
+LAVA Therapeutics N.V.,LVTX,0.11772899
+Oyster Point Pharma,OYST,0.11750229
+Nuvation Bio,NUVB,0.11676214
+Satsuma Pharmaceuticals,STSA,0.1166293
+Twist Bioscience Corporation,TWST,0.11635828
+Casper Sleep,CSPR,0.1161196
+Vaccitech plc,VACC,0.11569638
+Fiverr International Ltd.,FVRR,0.11565699
+Oscar Health,OSCR,0.11554881
+Lyell Immunopharma,LYEL,0.11546477
+Vicarious Surgical,RBOT,0.11538498
+Aligos Therapeutics,ALGS,0.11508383
+Berkeley Lights,BLI,0.11484512
+Kingsoft Cloud Holdings Limited,KC,0.11478946
+Atea Pharmaceuticals,AVIR,0.114169694
+Coinbase Global,COIN,0.11337424
+Sana Biotechnology,SANA,0.11291258
+Ouster,OUST,0.11206496
+Peloton Interactive,PTON,0.11147993
+Applied Molecular Transport,AMTI,0.11061892
+Hippo Holdings,HIPO,0.11056615
+Allbirds,BIRD,0.10988542
+AppHarvest,APPH,0.10795188
+"Vroom,",VRM,0.106610455
