@@ -7,13 +7,6 @@
   font-size: 0.75em;
 }
 
-.quick-stat-container {
-  h2,
-  p {
-    margin: 0;
-  }
-}
-
 .people {
   display: flex;
   justify-content: end;
@@ -21,6 +14,7 @@
 }
 
 .stock-quick-data {
+  h2,
   p {
     margin: 0;
   }
