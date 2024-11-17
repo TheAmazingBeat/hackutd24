@@ -7,13 +7,7 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <!-- <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header> -->
-
-  <ion-grid>
+  <ion-grid class="for-you-wrapper">
     <ion-row class="ion-justify-content-center">
       @for (company of recommendedCompanies.slice(0, 2); track $index) {
       <ion-col size="6" sizeLg="5">
