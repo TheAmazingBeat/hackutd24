@@ -13,14 +13,19 @@ const routes: Routes = [
           import('../tab1-for-you/tab1.module').then((m) => m.Tab1PageModule),
       },
       {
+        path: 'portfolio',
+        loadChildren: () =>
+          import('../tab2-portfolio/tab2.module').then((m) => m.Tab2PageModule),
+      },
+      {
         path: 'accounts',
         loadChildren: () =>
-          import('../tab2-accounts/tab2.module').then((m) => m.Tab2PageModule),
+          import('../tab3-accounts/tab3.module').then((m) => m.Tab3PageModule),
       },
       {
         path: 'profile',
         loadChildren: () =>
-          import('../tab3-profile/tab3.module').then((m) => m.Tab3PageModule),
+          import('../tab4-profile/tab4.module').then((m) => m.Tab4PageModule),
       },
       {
         path: '',
