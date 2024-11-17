@@ -6,4 +6,5 @@ export interface Company {
   salePrice: number;
   priceChange: number;
   location?: string;
+  quantity?: number;
 }
