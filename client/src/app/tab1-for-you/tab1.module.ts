@@ -6,6 +6,7 @@ import { Tab1Page } from './tab1.page';
 
 import { Tab1PageRoutingModule } from './tab1-routing.module';
 import { InvestCardComponent } from './components/invest-card/invest-card.component';
+import { InvestModalComponent } from './components/invest-modal/invest-modal.component';
 
 @NgModule({
   imports: [
@@ -14,6 +15,6 @@ import { InvestCardComponent } from './components/invest-card/invest-card.compon
     FormsModule,
     Tab1PageRoutingModule
   ],
-  declarations: [Tab1Page, InvestCardComponent]
+  declarations: [Tab1Page, InvestCardComponent, InvestModalComponent],
 })
 export class Tab1PageModule {}
