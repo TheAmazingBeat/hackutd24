@@ -7,11 +7,15 @@
     <ion-title>{{ company.name }}</ion-title>
     }
     <ion-buttons slot="end">
-      <ion-button (click)="toggleBookmark()"
-        ><ion-icon
+      <ion-button>
+        <ion-icon slot="icon-only" name="share-social"></ion-icon>
+      </ion-button>
+      <ion-button (click)="toggleBookmark()">
+        <ion-icon
+          slot="icon-only"
           [name]="bookmarked ? 'bookmark' : 'bookmark-outline'"
-        ></ion-icon
-      ></ion-button>
+        ></ion-icon>
+      </ion-button>
     </ion-buttons>
   </ion-toolbar>
 </ion-header>
@@ -41,7 +45,14 @@
 
     <ion-row class="ion-justify-content-center">
       <ion-col size="12">
+        <<<<<<< HEAD
         <div class="choices"></div>
+        =======
+        <div class="choices">
+          <ion-button fill="outline" color="success"> Yes </ion-button>
+          <ion-button fill="outline" color="danger"> No </ion-button>
+        </div>
+        >>>>>>> fix-for-you
       </ion-col>
     </ion-row>
   </ion-grid>
