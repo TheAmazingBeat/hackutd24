@@ -1,0 +1,169 @@
+/* General Styling for Credit Card Preview */
+.credit-card-preview {
+    display: flex;
+    justify-content: flex-end; /* Align card to the right */
+    align-items: center;
+    width: 180px; /* Restrict the width */
+    height: 100px; /* Adjust height to maintain proportions */
+  }
+  
+  /* General Credit Card Styling */
+  .credit-card {
+    width: 100%; /* Fit the preview container */
+    height: 100%; /* Fit the preview container */
+    border-radius: 12px; /* Rounded corners for card shape */
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #fff; /* Text color */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+  }
+  
+  /* Darker Card (Default) */
+  .darker-card {
+    background: linear-gradient(135deg, #141e30, #243b55); /* Dark blue gradient */
+  }
+  
+  /* Lighter Card */
+  .lighter-card {
+    background: linear-gradient(135deg, #4f92c4, #a4d3f3); /* Light blue gradient */
+  }
+  
+  /* Title of the Card */
+  .card-title {
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  
+  /* Card Number Styling */
+  .card-number {
+    font-size: 0.8rem;
+    letter-spacing: 1.5px; /* Increase spacing for a cleaner look */
+  }
+  
+  /* Card Footer (Valid Thru) */
+  .card-footer {
+    font-size: 0.7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #cccccc; /* Muted color for labels */
+  }
+  
+  .card-footer span {
+    font-size: 0.6rem;
+  }
+  
+  
+/* Add spacing between ion-items */
+ion-item {
+    --padding-top: 8px; /* Adds padding at the top of each item */
+    --padding-bottom: 8px; /* Adds padding at the bottom of each item */
+    --inner-padding-end: 16px; /* Add horizontal spacing on the end */
+    --inner-padding-start: 16px; /* Add horizontal spacing at the start */
+    margin-bottom: 8px; /* Adds vertical margin between items */
+    border-bottom: 1px solid #e0e0e0; /* Optional: adds a separator line */
+  }
+  
+  /* Remove border from the last ion-item */
+  ion-item:last-of-type {
+    margin-bottom: 0; /* Remove margin after the last item */
+    border-bottom: none; /* Optional: remove separator for the last item */
+  }
+
+  ion-label p:last-of-type {
+    font-size: 1.2rem; /* Make the balance text larger */
+    font-weight: bold; /* Make the balance text bold */
+    color: #000; /* Ensure high contrast for visibility */
+    margin-top: 8px; /* Add space above the balance */
+  }
+
+  /* Styling for Microloans Section */
+.microloans-section {
+    padding: 0;
+  }
+  
+  .microloans-section ion-card {
+    --background: #f8f9fa; /* Light gray background */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .microloans-section ion-card-header {
+    text-align: center;
+    padding-bottom: 8px;
+  }
+  
+  .microloans-section ion-card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .microloans-section ion-card-subtitle {
+    font-size: 1rem;
+    color: #666; /* Muted color for subtitle */
+  }
+  
+  /* Loan Summary Styling */
+  .loan-summary ion-item {
+    --padding-top: 12px;
+    --padding-bottom: 12px;
+    margin-bottom: 8px; /* Space between loans */
+  }
+  
+  .loan-summary ion-label h2 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .loan-summary ion-label p {
+    font-size: 0.9rem;
+    margin: 2px 0;
+    color: #333; /* Darker text for clarity */
+  }
+  
+  .loan-summary ion-button {
+    --border-radius: 8px;
+    font-size: 0.9rem;
+  }
+  
+  /* Accordion Dropdown Styling */
+  ion-accordion-group {
+    margin-top: 16px;
+  }
+  
+  ion-accordion ion-item[slot="header"] {
+    --background: #e9ecef; /* Light gray background for dropdown */
+    border-radius: 8px;
+    padding: 12px;
+  }
+  
+  ion-accordion ion-label {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  ion-accordion ion-list ion-item {
+    --padding-top: 12px;
+    --padding-bottom: 12px;
+    margin-bottom: 8px; /* Space between dropdown items */
+  }
+  
+  ion-accordion ion-list ion-label h2 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  ion-accordion ion-list ion-label p {
+    font-size: 0.9rem;
+    margin: 2px 0;
+  }
+  ion-card-header {
+    margin-bottom: 8px; /* Reduce space below card header */
+    padding-bottom: 4px; /* Reduce padding at the bottom of the header */
+  }
