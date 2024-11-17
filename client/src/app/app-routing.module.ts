@@ -13,7 +13,11 @@ const routes: Routes = [
     //     : import('./sidemenu/sidemenu.module').then(
     //         (m) => m.SidemenuPageModule
     //       ),
+  },  {
+    path: 'preferences',
+    loadChildren: () => import('./pages/preferences/preferences.module').then( m => m.PreferencesPageModule)
   },
+
 ];
 @NgModule({
   imports: [

@@ -1,8 +1,8 @@
 @if(!company){
 <ion-spinner></ion-spinner>
 } @else {
-<ion-card (click)="openModal(company)" class="invest-card">
-  <ion-card-header class="ion-text-center card-title">
+<ion-card (click)="openModal(company)" class="invest-card" color="light">
+  <ion-card-header class="ion-text-center invest-card-title">
     <ion-card-title>{{ company.name }}</ion-card-title>
   </ion-card-header>
 
@@ -17,7 +17,7 @@
       <ion-col size="12" class="ion-text-center">
         <!-- <ion-label> -->
         <div class="stock-quick-data">
-          <p>${{ company.salePrice }}</p>
+          <h2>${{ company.salePrice }}</h2>
           <!-- <h2>{{ company.salePrice }}</h2> -->
           <p>
             @if (company.priceChange > 0) {<ion-icon
