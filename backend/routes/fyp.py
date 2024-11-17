@@ -89,11 +89,11 @@ def get_Top_Investments():
         next(csvFile,None)
 
         for row in csvFile:
-            company = row[0]
-            stock_name = row[1]  
-            industry = row[2]
-            price_change = row[4]
-            score = row[6]
+            company = row[1]
+            stock_name = row[2]  
+            industry = row[3]
+            price_change = row[5]
+            score = row[7]
             image = ""  
             
             if company not in excluded_companies: 
