@@ -1,0 +1,125 @@
+Company Name,Stock Symbol,Industry,Exchange,1-Year Stock Price Change (%),Change Since IPO (%)
+Airbnb,ABNB,Online Marketplace,NASDAQ,15.2,30.5
+Alibaba Group,BABA,E-commerce,NYSE,-8.5,15
+Alphabet (Google),GOOGL,Technology,NASDAQ,12.7,150
+Amazon,AMZN,E-commerce,NASDAQ,9.3,120
+Apple,AAPL,Technology,NASDAQ,18.5,200
+Atlassian,TEAM,Software,NASDAQ,22.1,180
+Baidu,BIDU,Internet Services,NASDAQ,-5.4,-20
+Beyond Meat,BYND,Food Processing,NASDAQ,-12.8,50
+Box,BOX,Cloud Storage,NYSE,10.6,50
+Chewy,CHWY,E-commerce,NYSE,7.4,25
+Cloudflare,NET,Cybersecurity,NYSE,25.3,60
+Coinbase,COIN,Cryptocurrency Exchange,NASDAQ,-15.7,-10
+CrowdStrike,CRWD,Cybersecurity,NASDAQ,20.9,70
+Datadog,DDOG,Cloud Monitoring,NASDAQ,18.2,65
+Dell Technologies,DELL,Technology,NYSE,5.7,30
+DocuSign,DOCU,Software,NASDAQ,11.4,55
+DoorDash,DASH,Food Delivery,NYSE,8.9,20
+Dropbox,DBX,Cloud Storage,NASDAQ,9.8,35
+Etsy,ETSY,E-commerce,NASDAQ,14.3,250
+Facebook (Meta Platforms),META,Social Media,NASDAQ,16.5,100
+GitLab,GTLB,Software Development,NASDAQ,19.7,40
+HubSpot,HUBS,Software,NYSE,21.4,300
+Lyft,LYFT,Ride Sharing,NASDAQ,-10.2,-15
+MongoDB,MDB,Database Software,NASDAQ,23.5,400
+Netflix,NFLX,Streaming Services,NASDAQ,12.9,150
+Nikola,NKLA,Automotive,NASDAQ,-18.6,-50
+Nio,NIO,Automotive,NYSE,-7.8,10
+Nubank,NU,Financial Services,NYSE,6.3,5
+Okta,OKTA,Cybersecurity,NASDAQ,15.8,200
+Palantir Technologies,PLTR,Data Analytics,NYSE,17.2,25
+PayPal,PYPL,Financial Services,NASDAQ,8.4,80
+Pinterest,PINS,Social Media,NYSE,10.9,30
+Plug Power,PLUG,Energy,NASDAQ,-9.5,50
+Robinhood Markets,HOOD,Financial Services,NASDAQ,-12.3,-20
+Roku,ROKU,Streaming Services,NASDAQ,11.6,200
+Salesforce,CRM,Software,NYSE,13.8,120
+Shopify,SHOP,E-commerce,NYSE,16.1,500
+Slack Technologies,WORK,Software,NYSE,14.7,40
+Snap Inc.,SNAP,Social Media,NYSE,9.2,25
+Snowflake Inc.,SNOW,Data Warehousing,NYSE,18.9,35
+Spotify,SPOT,Streaming Services,NYSE,12.5,20
+Square (Block),SQ,Financial Services,NYSE,10.3,250
+Tesla,TSLA,Automotive,NASDAQ,20.4,800
+Twilio,TWLO,Cloud Communications,NYSE,15.3,300
+Twitter,TWTR,Social Media,NYSE,11.1,50
+Uber Technologies,UBER,Ride Sharing,NYSE,13.4,15
+Unity Software,U,Software,NYSE,17.6,30
+Upstart Holdings,UPST,Financial Services,NASDAQ,9.9,10
+Wayfair,W,E-commerce,NYSE,8.7,150
+WeWork,WE,Real Estate,NYSE,-14.5,-30
+Wix.com,WIX,Website Development,NASDAQ,12.2,100
+Workday,WDAY,Software,NASDAQ,14.9,120
+Xpeng,XPEV,Automotive,NYSE,-5.6,10
+Zoom Video Communications,ZM,Video Conferencing,NASDAQ,11.3,150
+Zscaler,ZS,Cybersecurity,NASDAQ,19.5,200
+Affirm Holdings,AFRM,Financial Services,NASDAQ,8.1,25
+Asana,ASAN,Software,NYSE,10.7,30
+Bumble,BMBL,Social Media,NASDAQ,7.9,15
+C3.ai,AI,Artificial Intelligence,NYSE,18.4,40
+Coursera,COUR,Education Technology,NYSE,9.5,20
+Duolingo,DUOL,Education Technology,NASDAQ,12.8,35
+Fiverr International,FVRR,Online Marketplace,NYSE,11.6,50
+Freshworks,FRSH,Software,NASDAQ,14.2,30
+Instacart,CART,E-commerce,NASDAQ,9.1,20
+LegalZoom,LZ,Legal Services,NASDAQ,7.5,15
+Lemonade,LMND,Insurance,NYSE,6.8,10
+Marqeta,MQ,Financial Services,NASDAQ,8.3,20
+Monday.com,MNDY,Software,NASDAQ,13.7,25
+Roblox,RBLX,Gaming,NYSE,15.6,30
+SentinelOne,S,Cybersecurity,NYSE,17.9,35
+Squarespace,SQSP,Website Development,NYSE,10.2,20
+Toast,TOST,Financial Services,NYSE,12.5,25
+UiPath,PATH,Software,NYSE,14.8,30
+Warby Parker,WRBY,Retail,NYSE,9.4,15
+Wish (ContextLogic),WISH,E-commerce,NASDAQ,-10.7,-25
+ZoomInfo Technologies,ZI,Software,NASDAQ,13.1,40
+Zymergen,ZY,Biotechnology,NASDAQ,-15.2,-30
+AppLovin,APP,Software,NASDAQ,11.9,25
+Blend Labs,BLND,Software,NYSE,8.6,15
+Compass,COMP,Real Estate,NYSE,7.2,10
+Didi Global,DIDI,Ride Sharing,NYSE,-9.8,-20
+Ginkgo Bioworks,DNA,Biotechnology,NYSE,10.5,20
+GlobalFoundries,GFS,Semiconductors,NASDAQ,12.3,25
+Grab Holdings,GRAB,Ride Sharing,NASDAQ,9.7,15
+HashiCorp,HCP,Software,NASDAQ,14.5,30
+Rivian Automotive,RIVN,Automotive,NASDAQ,11,20
+SoFi Technologies,SOFI,Financial Services,NASDAQ,13.2,25
+ThredUp,TDUP,E-commerce,NASDAQ,8,15
+Vizio Holding,VZIO,Electronics,NYSE,9.9,20
+ZipRecruiter,ZIP,Employment Services,NYSE,10.8,25
+Zomato,ZOMATO,Food Delivery,NSE,12.6,30
+Coupang,CPNG,E-commerce,NYSE,11.5,20
+Oatly Group,OTLY,Food Processing,NASDAQ,-8.9,-15
+Payoneer Global,PAYO,Financial Services,NASDAQ,10.4,20
+Taboola,TBLA,Advertising,NASDAQ,9,15
+TaskUs,TASK,Business Services,NASDAQ,12,25
+Amgen,AMGN,Biotechnology,NASDAQ,9.2,100
+BlackLine,BL,Accounting Software,NASDAQ,10,30
+Blockstream,BLOCK,Cryptocurrency,NASDAQ,7.8,20
+Blue Apron,APRN,Food Delivery,NYSE,-5.5,-10
+Booking Holdings,BKNG,Travel,NASDAQ,18.4,250
+Carvana,CVNA,E-commerce,NYSE,-7.2,-15
+ChargePoint,CHPT,Electric Vehicles,NYSE,9.3,50
+CoinGecko,GECKO,Cryptocurrency Analytics,NASDAQ,11,30
+Cognizant,CTSH,Consulting,NASDAQ,10.2,40
+Crowdcube,CUBE,Investment Platform,NYSE,7.9,15
+DataRobot,DRBOT,Artificial Intelligence,NASDAQ,14.1,30
+Deere & Company,DE,Agricultural Equipment,NYSE,8.8,75
+Epic Games,EPIC,Gaming,NASDAQ,16.5,120
+Expedia Group,EXPE,Travel,NASDAQ,9.4,100
+Fastly,FSLY,Cloud Computing,NYSE,10.8,35
+Groupon,GRPN,E-commerce,NASDAQ,-6.1,-10
+NVIDIA,NVDA,Semiconductors,NASDAQ,20.7,500
+Zoomerang,ZOMER,Video Templates,NASDAQ,7.4,15
+Redfin,RDFN,Real Estate,NASDAQ,-9.4,-15
+Sage Group,SGE,Software,LSE,7.7,20
+Samsung,5930,Technology,KSE,10.1,80
+Slackline,SLINE,Fitness Equipment,NYSE,5.4,15
+Snapdeal,SNDEAL,E-commerce,NSE,-6.7,-10
+Spotify for Business,SPOTB,Music Licensing,NASDAQ,9.3,25
+Tata Motors,TTM,Automotive,NYSE,7,50
+TikTok (ByteDance),TTOK,Social Media,Private,18,200
+Virgin Galactic,SPCE,Space Tourism,NYSE,-8.9,-20
+Waymo,WAYMO,Autonomous Driving,Private,14,100
