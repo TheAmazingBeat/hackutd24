@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['tab4.page.scss'],
 })
 export class Tab4Page {
+  user = {
+    name: 'John Doe',
+    email: 'john.doe@email.com',
+    phone: '123-456-7890',
+  }
+
   constructor() {}
 }
