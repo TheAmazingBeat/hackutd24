@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Loan Evaluation</ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="close()">Close</ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <!-- Display a loading spinner while fetching data -->
+  <ion-spinner *ngIf="loading"></ion-spinner>
+
+  <!-- Display the API response -->
+  <ion-card *ngIf="!loading && apiResponse">
+    <ion-card-header>
+      <ion-card-title>Evaluation Result</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>{{ apiResponse }}</p>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

@@ -8,9 +8,10 @@ export interface User {
   password: string;
   preferences: {
     industries: string[];
-    investmentType: string;
+    investmentType: 'Short-term' | 'Long-term' | '';
   };
   investments: Company[];
+  newPerson: boolean;
   checkingAccount?: {
     accountNumber: number;
     balance: number;

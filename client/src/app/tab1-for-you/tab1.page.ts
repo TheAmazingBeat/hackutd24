@@ -54,12 +54,12 @@ export class Tab1Page implements OnInit {
       (response: any) => {
         response.map((company: any) => {
           const newCompany: Company = {
-            name: company.name,
+            name: company.company,
             description: 'Company Description',
-            industry: 'Technology',
-            salePrice: 300,
-            priceChange: 0,
-            trendImage: 'https://via.placeholder.com/150',
+            industry: company.industry,
+            salePrice: company['current_price'],
+            priceChange: company['price_change'],
+            trendImage: this.apiService.convertByteToImage(company.image),
           };
           this.recommendedCompanies.push(newCompany);
         });
@@ -69,7 +69,5 @@ export class Tab1Page implements OnInit {
         console.error(error);
       }
     );
-    // await this.apiService.initialize();
-    // this.recommendedCompanies = this.apiService.companies;
   }
 }

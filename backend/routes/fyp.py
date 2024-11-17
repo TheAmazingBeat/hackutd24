@@ -1,5 +1,5 @@
 from flask import Blueprint
-from routes.api import get_company_investment_data_and_graph, get_company_summary
+from routes.api import get_company_investment_data_and_graph, get_company_summary, get_current_stock_price
 import pandas as pd
 import json
 import csv
@@ -101,11 +101,12 @@ def get_Top_Investments():
                     "company": company,
                     "stock_name": stock_name,
                     "industry": industry,
+                    "current_price": 0,
                     "price_change": price_change,
                     "score": score,
                     "image": ""  # Placeholder for the image
                 })
-
+    company_info.sort(key=lambda x: x["score"], reverse=True)
     return company_info
 
 def init_page():
@@ -113,9 +114,11 @@ def init_page():
     companies = get_Top_Investments()
     top_companies = [company["stock_name"] for company in companies[:4]]
     images = get_company_investment_data_and_graph(top_companies[:4])
+    prices = get_current_stock_price(top_companies[:4])
 
     for i, image in enumerate(images):
         companies[i]["image"] = image  
+        companies[i]["current_price"] = prices
 
     return json.dumps(companies[:4])  
 

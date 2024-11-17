@@ -19,4 +19,16 @@ export class ApiService {
   initialize() {
     return this.httpClient.get(`${this.apiRoute}/fyp`);
   }
+  api_intialize() {
+    return this.httpClient.get(`${this.apiRoute}/api/accounts`);
+  }
+
+  get_fyp_openai() {
+    return this.httpClient.get(`${this.apiRoute}/api/fyp`);
+  }
+
+
+  convertByteToImage(byteString: string) {
+    return 'data:image/jpeg;base64,' + byteString;
+  }
 }

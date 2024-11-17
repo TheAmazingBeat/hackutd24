@@ -1,3 +1,5 @@
+<app-header></app-header>
+
 <ion-content [fullscreen]="true">
   <ion-card>
     <ion-card-header>
@@ -17,9 +19,7 @@
             <div class="credit-card darker-card">
               <div class="card-title">MY BANK</div>
               <div class="card-number">1234 5678 9012 3456</div>
-              <div class="card-footer">
-                <span>VALID THRU</span> 12/26
-              </div>
+              <div class="card-footer"><span>VALID THRU</span> 12/26</div>
             </div>
           </div>
         </ion-item>
@@ -35,9 +35,7 @@
             <div class="credit-card lighter-card">
               <div class="card-title">MY OTHER BANK</div>
               <div class="card-number">5678 9012 3456 7890</div>
-              <div class="card-footer">
-                <span>VALID THRU</span> 11/25
-              </div>
+              <div class="card-footer"><span>VALID THRU</span> 11/25</div>
             </div>
           </div>
         </ion-item>
@@ -61,7 +59,11 @@
               <p>Interest Rate: 5%</p>
               <p>Repayment Period: 12 months</p>
             </ion-label>
-            <ion-button color="primary" fill="outline">
+            <ion-button
+              color="primary"
+              fill="outline"
+              (click)="openLoanDetails(5000,2450,650)"
+            >
               Details
             </ion-button>
           </ion-item>
@@ -83,7 +85,11 @@
                   <p>Interest Rate: 3%</p>
                   <p>Repayment Period: 6 months</p>
                 </ion-label>
-                <ion-button color="primary" fill="outline">
+                <ion-button
+                  color="primary"
+                  fill="outline"
+                  (click)="openLoanDetails(2000, 2450, 650)"
+                >
                   Details
                 </ion-button>
               </ion-item>
@@ -96,7 +102,11 @@
                   <p>Interest Rate: 4.5%</p>
                   <p>Repayment Period: 9 months</p>
                 </ion-label>
-                <ion-button color="primary" fill="outline">
+                <ion-button
+                  color="primary"
+                  fill="outline"
+                  (click)="openLoanDetails(1500, 2450, 650)"
+                >
                   Details
                 </ion-button>
               </ion-item>

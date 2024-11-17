@@ -1,12 +1,13 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Company } from '../interfaces/company';
+import { ApiService } from '../services/api.service';
 
 @Component({
   selector: 'app-tab2',
   templateUrl: 'tab2.page.html',
   styleUrls: ['tab2.page.scss'],
 })
-export class Tab2Page {
+export class Tab2Page implements OnInit {
   investments: Company[] = [
     {
       name: 'Apple',
@@ -40,5 +41,27 @@ export class Tab2Page {
     },
   ];
 
-  constructor() {}
+  constructor(private apiService: ApiService) {}
+
+  ngOnInit() {
+    this.apiService.initialize().subscribe(
+      (response: any) => {
+        response.map((company: any) => {
+          const newCompany: Company = {
+            name: company.company,
+            description: 'Company Description',
+            industry: company.industry,
+            salePrice: company['current_price'],
+            priceChange: company['price_change'],
+            trendImage: 'https://via.placeholder.com/150',
+            quantity: 1,
+          };
+          this.investments.push(newCompany);
+        });
+      },
+      (error) => {
+        console.error('Error loading companies', error);
+      }
+    );
+  }
 }
