@@ -9,4 +9,4 @@ import { IonicModule } from '@ionic/angular';
   declarations: [HeaderComponent],
   providers: [],
 })
-export class NameModule {}
+export class SharedModule {}
