@@ -1,1 +1,1 @@
-{"Name": "Leon Zhang", "Email": "leon.zh113@gmail.com", "Password": "test", "Account Balance": "$50,000", "Industry Preferences": ["Tech", "Finance", "Space"], "Term": "Short", "First Login": true}
+{"Name": "Leon Zhang", "Email": "leon.zh113@gmail.com", "Password": "test", "Account Balance": "$50,000", "Industry Preferences": ["Tech", "Finance", "Space"], "Investments": [["Apple", "AAPL", 5], ["X", "X", 10], ["Tesla", "TSLA", 2]], "Saved Investments": ["Meta", "Toyota"], "Term": "Short", "First Login": true}
