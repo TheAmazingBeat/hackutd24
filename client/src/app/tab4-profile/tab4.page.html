@@ -20,22 +20,95 @@
     <!-- Profile Infor -->
     <ion-row class="ion-justify-content-center">
       <ion-col size="12" sizeLg="8">
-        <h2>Contact Info</h2>
         <ion-list>
-          <ion-list-header> Phone </ion-list-header>
+          <ion-list-header>
+            <h2>Contact Info</h2>
+          </ion-list-header>
           <ion-item>
-            <div class="contact-info-item">
-              <ion-label>Phone</ion-label>
-              <ion-input type="tel" value="{{user.phone}}" readonly></ion-input>
-            </div>
-            <!-- <ion-label>Email</ion-label> -->
-            <!-- <ion-input type="email" value="{{user.email}}" readonly></ion-input> -->
+            <ion-label>Email</ion-label>
+            <ion-text>{{user.email}}</ion-text>
+            <ion-button fill="clear" slot="end">
+              <ion-icon slot="icon-only" name="pencil"></ion-icon>
+            </ion-button>
+          </ion-item>
+          <ion-item>
+            <ion-label>Phone</ion-label>
+            <ion-text>{{user.phone}}</ion-text>
+            <ion-button fill="clear" slot="end">
+              <ion-icon slot="icon-only" name="pencil"></ion-icon>
+            </ion-button>
           </ion-item>
         </ion-list>
       </ion-col>
     </ion-row>
 
     <!-- Settings -->
-    <ion-row></ion-row>
+    <ion-row class="ion-justify-content-center">
+      <ion-col size="12" sizeLg="8">
+        <ion-list>
+          <ion-list-header>
+            <h2>Settings</h2>
+          </ion-list-header>
+
+          <ion-item>
+            <ion-label>Username</ion-label>
+            <ion-text>
+              <ion-input
+                class="ion-text-end"
+                type="email"
+                value="{{user.username}}"
+                readonly
+              ></ion-input>
+            </ion-text>
+            <ion-button fill="clear" slot="end">
+              <ion-icon slot="icon-only" name="pencil"></ion-icon>
+            </ion-button>
+          </ion-item>
+
+          <ion-item>
+            <ion-label>Password</ion-label>
+            <ion-text>
+              <ion-input
+                class="ion-text-end"
+                type="password"
+                value="{{user.password}}"
+                readonly
+              ></ion-input>
+            </ion-text>
+            <ion-button fill="clear" slot="end">
+              <ion-icon slot="icon-only" name="pencil"></ion-icon>
+            </ion-button>
+          </ion-item>
+        </ion-list>
+      </ion-col>
+    </ion-row>
+
+    <ion-row class="ion-justify-content-center">
+      <ion-col size="12" sizeLg="8">
+        <ion-list>
+          <ion-list-header>
+            <h2>Investment Preferences</h2>
+          </ion-list-header>
+          <ion-item>
+            <ion-label>Type</ion-label>
+            <ion-text>{{user.preferences.investmentType}}</ion-text>
+            <ion-button fill="clear" slot="end">
+              <ion-icon slot="icon-only" name="pencil"></ion-icon>
+            </ion-button>
+          </ion-item>
+          <ion-item>
+            <ion-label>Industries</ion-label>
+            <ion-text slot="end">
+              <ion-chip *ngFor="let industry of user.preferences.industries">
+                <ion-label>{{industry}}</ion-label>
+              </ion-chip>
+            </ion-text>
+            <ion-button fill="clear" slot="end">
+              <ion-icon slot="icon-only" name="pencil"></ion-icon>
+            </ion-button>
+          </ion-item>
+        </ion-list>
+      </ion-col>
+    </ion-row>
   </ion-grid>
 </ion-content>

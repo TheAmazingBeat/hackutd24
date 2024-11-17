@@ -10,7 +10,13 @@ export class Tab4Page {
     name: 'John Doe',
     email: 'john.doe@email.com',
     phone: '123-456-7890',
-  }
+    username: 'johndoe',
+    password: 'password',
+    preferences: {
+      industries: ['Technology', 'Healthcare'],
+      investmentType: 'Short-term',
+    },
+  };
 
   constructor() {}
 }
