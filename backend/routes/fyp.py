@@ -1,5 +1,5 @@
 from flask import Blueprint
-from routes.api import get_company_investment_data_and_graph
+from routes.api import get_company_investment_data_and_graph, get_company_summary
 import pandas as pd
 import json
 import csv
@@ -19,8 +19,7 @@ currentComapnies = []
 
 @fyp_bp.route("/fyp", methods=["GET"])
 def for_you():
-    init_page()
-    return "For You Page"
+    return init_page()
 
 # when user clicks refresh button
 @fyp_bp.route("/fyp/refresh")
@@ -35,8 +34,8 @@ def refresh_Page():
 
 # When user clicks on a specific stock
 @fyp_bp.route("/fyp/investment")
-def investment_popup():
-    return
+def investment_popup(company):
+    return get_company_summary(company)
 
 @fyp_bp.route("/fyp/investment/yes")
 def user_click_yes(company):
@@ -84,28 +83,41 @@ def get_Top_Investments():
             if row["User Decision"] == "No":
                 excluded_companies.add(row["Company Name"])
 
-    company_scores = []
-    with open(result_fp, mode = 'r') as file:
+    company_info = []
+    with open(stock_data_fp, mode = 'r') as file:
         csvFile = csv.reader(file)
         next(csvFile,None)
 
         for row in csvFile:
             company = row[0]
             stock_name = row[1]  
-            score = row[2]  
+            industry = row[2]
+            price_change = row[4]
+            score = row[6]
+            image = ""  
             
             if company not in excluded_companies: 
-                company_scores.append((company, stock_name, score))
+                company_info.append({
+                    "company": company,
+                    "stock_name": stock_name,
+                    "industry": industry,
+                    "price_change": price_change,
+                    "score": score,
+                    "image": ""  # Placeholder for the image
+                })
 
-    print(company_scores)
-    return company_scores
+    return company_info
 
 def init_page():
-    global companies 
+    global companies
     companies = get_Top_Investments()
-    currentComapnies = [company[1] for company in companies[:4]]
-    global images 
-    images = get_company_investment_data_and_graph(currentComapnies[:4])
+    top_companies = [company["stock_name"] for company in companies[:4]]
+    images = get_company_investment_data_and_graph(top_companies[:4])
+
+    for i, image in enumerate(images):
+        companies[i]["image"] = image  
+
+    return json.dumps(companies[:4])  
 
 def load_json():
     with open(user_data_fp, "r") as f:

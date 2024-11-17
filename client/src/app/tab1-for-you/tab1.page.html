@@ -2,6 +2,13 @@
 
 <ion-content [fullscreen]="true">
   <ion-grid class="for-you-wrapper">
+    @if(recommendedCompanies.length === 0) {
+    <ion-row class="ion-justify-content-center">
+      <ion-col size="12" class="spinner-container">
+        <ion-spinner></ion-spinner>
+      </ion-col>
+    </ion-row>
+    }
     <ion-row class="ion-justify-content-center">
       @for (company of recommendedCompanies.slice(0, 2); track $index) {
       <ion-col size="6" sizeLg="5">
