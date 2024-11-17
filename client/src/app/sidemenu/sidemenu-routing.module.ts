@@ -1,11 +1,12 @@
 import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
-import { TabsPage } from './tabs.page';
+import { Routes, RouterModule } from '@angular/router';
+
+import { SidemenuPage } from './sidemenu.page';
 
 const routes: Routes = [
   {
     path: '',
-    component: TabsPage,
+    component: SidemenuPage,
     children: [
       {
         path: 'for-you',
@@ -43,5 +44,6 @@ const routes: Routes = [
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
+  exports: [RouterModule],
 })
-export class TabsPageRoutingModule {}
+export class SidemenuPageRoutingModule {}

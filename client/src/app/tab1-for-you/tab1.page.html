@@ -1,0 +1,26 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      <!-- Tab 1 -->
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-grid class="for-you-wrapper">
+    <ion-row class="ion-justify-content-center">
+      @for (company of recommendedCompanies.slice(0, 2); track $index) {
+      <ion-col size="6" sizeLg="5">
+        <app-invest-card [company]="company"></app-invest-card>
+      </ion-col>
+      }
+    </ion-row>
+    <ion-row class="ion-justify-content-center">
+      @for (company of recommendedCompanies.slice(2, 4); track $index) {
+      <ion-col size="6" sizeLg="5">
+        <app-invest-card [company]="company"></app-invest-card>
+      </ion-col>
+      }
+    </ion-row>
+  </ion-grid>
+</ion-content>
