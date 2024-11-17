@@ -1,3 +1,19 @@
+.invest-card {
+  margin: 0;
+}
+
+.invest-card-title {
+  padding: 1rem 0.5rem;
+  font-size: 0.75em;
+}
+
+.quick-stat-container {
+  h2,
+  p {
+    margin: 0;
+  }
+}
+
 .people {
   display: flex;
   justify-content: end;

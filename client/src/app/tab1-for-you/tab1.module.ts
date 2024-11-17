@@ -9,12 +9,7 @@ import { InvestCardComponent } from './components/invest-card/invest-card.compon
 import { InvestModalComponent } from './components/invest-modal/invest-modal.component';
 
 @NgModule({
-  imports: [
-    IonicModule,
-    CommonModule,
-    FormsModule,
-    Tab1PageRoutingModule
-  ],
+  imports: [IonicModule, CommonModule, FormsModule, Tab1PageRoutingModule],
   declarations: [Tab1Page, InvestCardComponent, InvestModalComponent],
 })
 export class Tab1PageModule {}

@@ -3,5 +3,6 @@
         "@ionic/angular/common",
         "@ionic/angular/standalone"
     ],
-    "eslint.workingDirectories": ["client"]
+    "eslint.workingDirectories": ["client"],
+    "terminal.integrated.cwd": "${workspaceFolder}"
 }

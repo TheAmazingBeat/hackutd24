@@ -9,10 +9,15 @@ import { Company } from 'src/app/interfaces/company';
 })
 export class InvestModalComponent {
   @Input() company: Company | null = null;
+  bookmarked = false;
 
   constructor(private modalController: ModalController) {}
 
   close() {
     this.modalController.dismiss();
+  }
+
+  toggleBookmark() {
+    this.bookmarked = !this.bookmarked;
   }
 }
