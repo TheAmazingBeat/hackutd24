@@ -3,13 +3,27 @@ import yfinance as yf
 import matplotlib.pyplot as plt
 import io
 import base64
-
+import os
+import dotenv
+import openai
 
 api_bp = Blueprint("api", __name__)
 
-@api_bp.route("/api/investments", methods=["GET"])
-def api_investments():
-    return {"investments": []}  # Example JSON response
+@api_bp.route("/api")
+def get_company_summary():
+    client = openai.OpenAI(
+        api_key=os.environ.get("SAMBANOVA_API_KEY"),
+        base_url="https://api.sambanova.ai/v1",
+    )
+    prompt = f"Looking at Hellofresh, analyze its past performance in the stock market and give an evaluation on its future and if it is a worthy investment in a short summary and rating."
+    response = client.chat.completions.create(
+        model='Meta-Llama-3.1-8B-Instruct',
+        messages=[{"role":"system","content":"You are an expert stock analyzer"},{"role":"user","content": prompt}],
+        temperature =  0.1,
+        top_p = 0.1
+    )
+    print(response)
+    return response.choices[0].message.content
 
 def get_company_investment_data_and_graph(tickers):
     plt.figure(figsize= (10,6))
